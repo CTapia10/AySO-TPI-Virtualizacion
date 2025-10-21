@@ -14,7 +14,7 @@ def programa_principal():
 
     def DirArchivo():
         # Devuelvo ruta relativa del archivo dentro de la carpeta codigo
-        directorio_archivo = "./codigo/" + NombreArchivo()
+        directorio_archivo = "codigo/" + NombreArchivo()
         return directorio_archivo
 
     # Defino metodo para verificar si existe el archivo
