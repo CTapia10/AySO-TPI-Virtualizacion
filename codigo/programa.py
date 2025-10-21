@@ -52,6 +52,9 @@ def programa_principal():
             if len(nombre) < 2:
                 print(f"\n⚠️  El nombre es demasiado corto.")
                 continue
+            if len(nombre) > 40:
+                print(f"\n⚠️  El nombre es demasiado largo.")
+                continue
             return nombre
 
     # Defino metodo para pedir la cantidad y devolverla sin errores de entrada
