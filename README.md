@@ -25,17 +25,21 @@ Antes de comenzar, asegúrate de contar con lo siguiente:
 
 ## 🧩 Instalación  
 
-### 1. Clonar el repositorio  
+### 1. Instalar VirtualBox  
+Sigue las instrucciones del documento `Instalacion_VirtualBox.pdf`.  
+
+### 2. Configurar Ubuntu como máquina virtual  
+Sigue las instrucciones del documento `Instalacion_Ubuntu.pdf`.   
+
+### 3. Instalar Git Bash y clonar el repositorio dentro de la máquina virtual  
+```bash
+sudo apt install git
+```
+
 ```bash
 git clone https://github.com/CTapia10/AySO-TPI-Virtualizacion.git
 cd AySO-TPI-Virtualizacion
 ```
-
-### 2. Instalar VirtualBox  
-Sigue las instrucciones del documento `Instalacion_VirtualBox.pdf`.  
-
-### 3. Configurar Ubuntu como máquina virtual  
-Sigue las instrucciones del documento `Instalacion_Ubuntu.pdf`.   
 
 ### 4. Instalar Python dentro de la máquina virtual  
 Una vez dentro de Ubuntu, abre la terminal y sigue los siguientes pasos:
@@ -58,9 +62,8 @@ python3 --version
 pip3 --version
 ```
 
-
 ### 5. Ejecutar el programa de prueba  
-Navega a la carpeta del proyecto y ejecuta:  
+Navega a la carpeta "codigo" dentro del proyecto y ejecuta:  
 ```bash
 python3 programa.py
 ```
@@ -71,7 +74,7 @@ python3 programa.py
 - 📘 `/documentacion/` → Guías de instalación con imágenes y pasos detallados.  
 - 🐍 `/codigo/` → Programa simple en Python para pruebas dentro de la VM.  
 - 🧾 `/informe_tecnico/` → Informe sobre los fundamentos y aplicaciones de la virtualización.  
-- 🖼️ `/imagenes/` → Capturas de pantalla del proceso de instalación y ejecución del programa.  
+- 🖼️ `/imagenes/` → Capturas de pantalla del proceso de ejecución del programa.  
 
 ---
 
