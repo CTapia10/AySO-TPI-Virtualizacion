@@ -13,9 +13,10 @@ def programa_principal():
         return nombre_archivo
 
     def DirArchivo():
-        # Devuelvo ruta relativa del archivo dentro de la carpeta codigo
-        directorio_archivo = "codigo/" + NombreArchivo()
-        return directorio_archivo
+        # Ruta absoluta del archivo productos.txt en la misma carpeta que este script
+        base = os.path.dirname(os.path.abspath(__file__))
+        archivo = os.path.join(base, NombreArchivo())
+        return archivo
 
     # Defino metodo para verificar si existe el archivo
     def ExisteArchivo(archivo):
