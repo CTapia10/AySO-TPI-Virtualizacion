@@ -79,8 +79,7 @@ python3 programa.py
 ---
 
 ## 🎯 Objetivo del proyecto  
-Aplicar los **principios básicos de la virtualización** mediante la creación y configuración de una máquina virtual funcional,  
-ejecutando un programa en Python como demostración práctica del entorno configurado.  
+Aplicar los **principios básicos de la virtualización** mediante la creación y configuración de una máquina virtual funcional, ejecutando un programa en Python como demostración práctica del entorno configurado.  
 
 ---
 
